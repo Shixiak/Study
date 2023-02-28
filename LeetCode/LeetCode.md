@@ -1,10 +1,5 @@
-数据结构入门
-
 # LeetCode  
-
-
 ## 53.最大子数组和  
-
 ###  方法一：动态规划  
 
 ```C  
@@ -182,5 +177,5 @@ int main()
 * 哈希表的使用（目前还没有学这个玩意）  
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODg4MTY3MjZdfQ==
+eyJoaXN0b3J5IjpbMzIyMDE1MF19
 -->
