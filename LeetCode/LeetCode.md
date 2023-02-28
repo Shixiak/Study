@@ -87,12 +87,8 @@ return false;
 
 
 
-## 217.存在重复元素  
-
-### 代码  
-
-方法一：排序  
-
+## 217.存在重复元素
+### 方法一：排序  
 ```C  
 int cmp(const void* _a, const void* _b) {  
     int a = *(int*)_a, b = *(int*)_b;  
@@ -114,14 +110,12 @@ bool containsDuplicate(int* nums, int numsSize) {
 * 
   
 
-方法二：哈希表（待补全）  
+### 方法二：哈希表（待补全）  
 
 ```C  
-```  
+```    
 
-#### 收获（待补全）  
-
-* 了解到了C语言库函数里面还有一个快排函数  
+### 快排函数的原理
 
 ```C  
 void qsort(void *base, size_t nitems, size_t size, int (*compar)(const void *, const void*))  
@@ -179,11 +173,12 @@ int main()
 
 ## 566.重塑矩阵
 ### 方法一：二维数组的一维表示
+
 * 二级指针
 
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NTE5MTM4NSwxMzUxNzY4Mjg0LDMxOD
+eyJoaXN0b3J5IjpbLTIzNTAzNTM1MiwxMzUxNzY4Mjg0LDMxOD
 UxNzEzOCwzMjIwMTUwXX0=
 -->
