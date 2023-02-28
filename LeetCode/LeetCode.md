@@ -173,12 +173,35 @@ int main()
 
 ## 566.重塑矩阵
 ### 方法一：二维数组的一维表示
+```C
+in
+int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, int* returnSize, int** returnColumnSizes) {
+    int m = numsSize;
+    int n = numsColSize[0];
+    if (m * n != r * c) {
+        *returnSize = numsSize;
+        *returnColumnSizes = numsColSize;
+        return nums;
+    }
+    *returnSize = r;
+    *returnColumnSizes = malloc(sizeof(int) * r);
+    int** ans = malloc(sizeof(int*) * r);
 
+    for (int i = 0; i < r; i++) {
+        (*returnColumnSizes)[i] = c;
+        ans[i] = malloc(sizeof(int) * c);
+    }
+    for (int x = 0; x < m * n; ++x) {
+        ans[x / c][x % c] = nums[x / n][x % n];
+    }
+    return ans;
+}
+```
 * 二级指针
 
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNTAzNTM1MiwxMzUxNzY4Mjg0LDMxOD
-UxNzEzOCwzMjIwMTUwXX0=
+eyJoaXN0b3J5IjpbNTk4OTg3MjEzLC0yMzUwMzUzNTIsMTM1MT
+c2ODI4NCwzMTg1MTcxMzgsMzIyMDE1MF19
 -->
