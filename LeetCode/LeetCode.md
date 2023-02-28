@@ -178,7 +178,11 @@ int main()
 
 ## 566.重塑矩阵
 ### 方法一：二维数组的一维表示
+* 二级指针
+
+二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE4NTE3MTM4LDMyMjAxNTBdfQ==
+eyJoaXN0b3J5IjpbMTM1MTc2ODI4NCwzMTg1MTcxMzgsMzIyMD
+E1MF19
 -->
