@@ -109,8 +109,7 @@ bool containsDuplicate(int* nums, int numsSize) {
     return false;  
 }  
 ```  
-
->用了快排函数，然后经过一次遍历确定相邻的数不相等即可  
+* 
   
 
 方法二：哈希表（待补全）  
@@ -183,6 +182,6 @@ int main()
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MTc2ODI4NCwzMTg1MTcxMzgsMzIyMD
-E1MF19
+eyJoaXN0b3J5IjpbNjU0MzcxMDYxLDEzNTE3NjgyODQsMzE4NT
+E3MTM4LDMyMjAxNTBdfQ==
 -->
