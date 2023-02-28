@@ -109,6 +109,8 @@ bool containsDuplicate(int* nums, int numsSize) {
     return false;  
 }  
 ```  
+* qsort 快排函数
+* const void* 可以转换为任意类型的空白指针
 * 
   
 
@@ -182,6 +184,6 @@ int main()
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU0MzcxMDYxLDEzNTE3NjgyODQsMzE4NT
+eyJoaXN0b3J5IjpbNTkwNzE4MjM3LDEzNTE3NjgyODQsMzE4NT
 E3MTM4LDMyMjAxNTBdfQ==
 -->
