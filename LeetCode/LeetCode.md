@@ -175,7 +175,10 @@ int main()
 ```  
 
 * 哈希表的使用（目前还没有学这个玩意）  
+
+## 566.重塑矩阵
+### 方法一：二维数组的一维表示
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIyMDE1MF19
+eyJoaXN0b3J5IjpbMzE4NTE3MTM4LDMyMjAxNTBdfQ==
 -->
