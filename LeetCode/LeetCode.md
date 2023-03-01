@@ -131,14 +131,7 @@ bool containsDuplicate(int* nums, int numsSize) {
 * qsort 快排函数的使用
 * const void* 是可以转换为任意类型的空白指针
 * 
-  
-
-### ！方法二：哈希表
-
-```C  
-```    
-
-### ！快排函数的原理
+ ### ！快排函数的原理
 
 ```C  
 void qsort(void *base, size_t nitems, size_t size, int (*compar)(const void *, const void*))  
@@ -192,6 +185,14 @@ int main()
 }  
 ```  
 
+
+### ！方法二：哈希表
+
+```C  
+```    
+
+
+
 * 哈希表的使用（目前还没有学这个玩意）  
 
 ## 566.重塑矩阵
@@ -228,8 +229,8 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTE2MjE1NywtMTQ1NjAwODU0NSwxOD
-YxNDk3NjYyLDE2MzkxMjcyNjIsMjAyNjM2OTIxMywxMzg2ODc2
-NTUwLC0yMzUwMzUzNTIsMTM1MTc2ODI4NCwzMTg1MTcxMzgsMz
-IyMDE1MF19
+eyJoaXN0b3J5IjpbLTExNDk2MDM0MzEsLTE0NTYwMDg1NDUsMT
+g2MTQ5NzY2MiwxNjM5MTI3MjYyLDIwMjYzNjkyMTMsMTM4Njg3
+NjU1MCwtMjM1MDM1MzUyLDEzNTE3NjgyODQsMzE4NTE3MTM4LD
+MyMjAxNTBdfQ==
 -->
