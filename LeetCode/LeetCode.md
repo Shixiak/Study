@@ -109,7 +109,7 @@ return false;
 
 ## ！118.杨辉三角
 ### 方法一
-
+·
 ## 217.存在重复元素
 ### 方法一：排序  
 ```C  
@@ -229,8 +229,8 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDk2MDM0MzEsLTE0NTYwMDg1NDUsMT
-g2MTQ5NzY2MiwxNjM5MTI3MjYyLDIwMjYzNjkyMTMsMTM4Njg3
-NjU1MCwtMjM1MDM1MzUyLDEzNTE3NjgyODQsMzE4NTE3MTM4LD
-MyMjAxNTBdfQ==
+eyJoaXN0b3J5IjpbNTI2ODM1ODk2LC0xMTQ5NjAzNDMxLC0xND
+U2MDA4NTQ1LDE4NjE0OTc2NjIsMTYzOTEyNzI2MiwyMDI2MzY5
+MjEzLDEzODY4NzY1NTAsLTIzNTAzNTM1MiwxMzUxNzY4Mjg0LD
+MxODUxNzEzOCwzMjIwMTUwXX0=
 -->
