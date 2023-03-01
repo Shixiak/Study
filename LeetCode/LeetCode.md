@@ -110,12 +110,12 @@ bool containsDuplicate(int* nums, int numsSize) {
 * 
   
 
-### 方法二：哈希表（待补全）  
+### ！方法二：哈希表
 
 ```C  
 ```    
 
-### 快排函数的原理
+### ！快排函数的原理
 
 ```C  
 void qsort(void *base, size_t nitems, size_t size, int (*compar)(const void *, const void*))  
@@ -172,7 +172,7 @@ int main()
 * 哈希表的使用（目前还没有学这个玩意）  
 
 ## 566.重塑矩阵
-### 方法一：二维数组的一维表示
+### ！方法一：二维数组的一维表示
 ```C
 //int** nums表示传入的二维数组
 //int numSize表示传入数组的长度
@@ -205,7 +205,7 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTEyNzI2MiwyMDI2MzY5MjEzLDEzOD
-Y4NzY1NTAsLTIzNTAzNTM1MiwxMzUxNzY4Mjg0LDMxODUxNzEz
-OCwzMjIwMTUwXX0=
+eyJoaXN0b3J5IjpbLTU4NTYwMzk2NiwxNjM5MTI3MjYyLDIwMj
+YzNjkyMTMsMTM4Njg3NjU1MCwtMjM1MDM1MzUyLDEzNTE3Njgy
+ODQsMzE4NTE3MTM4LDMyMjAxNTBdfQ==
 -->
