@@ -107,7 +107,7 @@ return false;
 * 本来还挺高兴能够活学活用qsort函数，结果反手看解析直接由被薄纱  
 
 
-
+## 11
 ## 217.存在重复元素
 ### 方法一：排序  
 ```C  
@@ -226,7 +226,8 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTYwMDg1NDUsMTg2MTQ5NzY2MiwxNj
-M5MTI3MjYyLDIwMjYzNjkyMTMsMTM4Njg3NjU1MCwtMjM1MDM1
-MzUyLDEzNTE3NjgyODQsMzE4NTE3MTM4LDMyMjAxNTBdfQ==
+eyJoaXN0b3J5IjpbMzA1MjU3NTIzLC0xNDU2MDA4NTQ1LDE4Nj
+E0OTc2NjIsMTYzOTEyNzI2MiwyMDI2MzY5MjEzLDEzODY4NzY1
+NTAsLTIzNTAzNTM1MiwxMzUxNzY4Mjg0LDMxODUxNzEzOCwzMj
+IwMTUwXX0=
 -->
