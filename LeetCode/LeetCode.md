@@ -180,6 +180,7 @@ int main()
 int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, int* returnSize, int** returnColumnSizes) {
     int m = numsSize;
     int n = numsColSize[0];
+    //numsColSize[0]存的是数组nums的列数
     if (m * n != r * c) {
         *returnSize = numsSize;
         *returnColumnSizes = numsColSize;
@@ -204,7 +205,7 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNjM2OTIxMywxMzg2ODc2NTUwLC0yMz
-UwMzUzNTIsMTM1MTc2ODI4NCwzMTg1MTcxMzgsMzIyMDE1MF19
-
+eyJoaXN0b3J5IjpbMTYzOTEyNzI2MiwyMDI2MzY5MjEzLDEzOD
+Y4NzY1NTAsLTIzNTAzNTM1MiwxMzUxNzY4Mjg0LDMxODUxNzEz
+OCwzMjIwMTUwXX0=
 -->
