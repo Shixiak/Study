@@ -1,4 +1,8 @@
 # LeetCode  
+## ！1.两数之和
+### 方法一：双重循环
+```C
+
 ## ！53.最大子数组和  
 ###  ！方法一：动态规划  
 
@@ -205,7 +209,7 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MTQ5NzY2MiwxNjM5MTI3MjYyLDIwMj
-YzNjkyMTMsMTM4Njg3NjU1MCwtMjM1MDM1MzUyLDEzNTE3Njgy
-ODQsMzE4NTE3MTM4LDMyMjAxNTBdfQ==
+eyJoaXN0b3J5IjpbODU0ODc5ODIzLDE4NjE0OTc2NjIsMTYzOT
+EyNzI2MiwyMDI2MzY5MjEzLDEzODY4NzY1NTAsLTIzNTAzNTM1
+MiwxMzUxNzY4Mjg0LDMxODUxNzEzOCwzMjIwMTUwXX0=
 -->
