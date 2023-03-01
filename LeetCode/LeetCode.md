@@ -1,5 +1,5 @@
 # LeetCode  
-## 53.最大子数组和  
+## ！53.最大子数组和  
 ###  ！方法一：动态规划  
 
 ```C  
@@ -205,7 +205,7 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTU1MTY2MzcsMTYzOTEyNzI2MiwyMD
-I2MzY5MjEzLDEzODY4NzY1NTAsLTIzNTAzNTM1MiwxMzUxNzY4
-Mjg0LDMxODUxNzEzOCwzMjIwMTUwXX0=
+eyJoaXN0b3J5IjpbMTg2MTQ5NzY2MiwxNjM5MTI3MjYyLDIwMj
+YzNjkyMTMsMTM4Njg3NjU1MCwtMjM1MDM1MzUyLDEzNTE3Njgy
+ODQsMzE4NTE3MTM4LDMyMjAxNTBdfQ==
 -->
