@@ -109,7 +109,23 @@ return false;
 
 ## ！118.杨辉三角
 ### 方法一
-·
+```C
+int** generate(int numRows, int* returnSize, int** returnColumnSizes) {
+    int** ret = malloc(sizeof(int*) * numRows);
+    *returnSize = numRows;
+    *returnColumnSizes = malloc(sizeof(int) * numRows);
+    for (int i = 0; i < numRows; ++i) {
+        ret[i] = malloc(sizeof(int) * (i + 1));
+        (*returnColumnSizes)[i] = i + 1;
+        ret[i][0] = ret[i][i] = 1;
+        for (int j = 1; j < i; ++j) {
+            ret[i][j] = ret[i - 1][j] + ret[i - 1][j - 1];
+        }
+    }
+    return ret;
+}
+```
+* 二级指针真的。。。
 ## 217.存在重复元素
 ### 方法一：排序  
 ```C  
@@ -229,8 +245,8 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2ODM1ODk2LC0xMTQ5NjAzNDMxLC0xND
-U2MDA4NTQ1LDE4NjE0OTc2NjIsMTYzOTEyNzI2MiwyMDI2MzY5
-MjEzLDEzODY4NzY1NTAsLTIzNTAzNTM1MiwxMzUxNzY4Mjg0LD
-MxODUxNzEzOCwzMjIwMTUwXX0=
+eyJoaXN0b3J5IjpbLTE0NTkwODI2OTUsLTExNDk2MDM0MzEsLT
+E0NTYwMDg1NDUsMTg2MTQ5NzY2MiwxNjM5MTI3MjYyLDIwMjYz
+NjkyMTMsMTM4Njg3NjU1MCwtMjM1MDM1MzUyLDEzNTE3NjgyOD
+QsMzE4NTE3MTM4LDMyMjAxNTBdfQ==
 -->
