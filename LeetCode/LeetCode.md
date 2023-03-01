@@ -2,7 +2,23 @@
 ## ！1.两数之和
 ### 方法一：双重循环
 ```C
-
+int* twoSum(int* nums, int numsSize, int target, int* returnSize)
+{
+    for (int i = 0; i < numsSize; ++i) {
+        for (int j = i + 1; j < numsSize; ++j) {
+            if (nums[i] + nums[j] == target) {
+                int* ret = malloc(sizeof(int) * 2);
+                ret[0] = i, ret[1] = j;
+                *returnSize = 2;
+                return ret;
+            }
+        }
+    }
+    *returnSize = 0;
+    return NULL;
+}
+```
+* forxia
 ## ！53.最大子数组和  
 ###  ！方法一：动态规划  
 
@@ -209,7 +225,7 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU0ODc5ODIzLDE4NjE0OTc2NjIsMTYzOT
-EyNzI2MiwyMDI2MzY5MjEzLDEzODY4NzY1NTAsLTIzNTAzNTM1
-MiwxMzUxNzY4Mjg0LDMxODUxNzEzOCwzMjIwMTUwXX0=
+eyJoaXN0b3J5IjpbLTY5MzM3MDUwMSwxODYxNDk3NjYyLDE2Mz
+kxMjcyNjIsMjAyNjM2OTIxMywxMzg2ODc2NTUwLC0yMzUwMzUz
+NTIsMTM1MTc2ODI4NCwzMTg1MTcxMzgsMzIyMDE1MF19
 -->
