@@ -176,7 +176,7 @@ int main()
 ```C
 //int** nums表示传入的二维数组
 //int numSize表示传入数组的长度
-//int r,c,分别表示需转换矩阵
+//int r,c,分别表示需转换矩阵行数和列数
 int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, int* returnSize, int** returnColumnSizes) {
     int m = numsSize;
     int n = numsColSize[0];
@@ -204,6 +204,7 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4Njg3NjU1MCwtMjM1MDM1MzUyLDEzNT
-E3NjgyODQsMzE4NTE3MTM4LDMyMjAxNTBdfQ==
+eyJoaXN0b3J5IjpbMjAyNjM2OTIxMywxMzg2ODc2NTUwLC0yMz
+UwMzUzNTIsMTM1MTc2ODI4NCwzMTg1MTcxMzgsMzIyMDE1MF19
+
 -->
