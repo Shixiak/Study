@@ -107,7 +107,9 @@ return false;
 * 本来还挺高兴能够活学活用qsort函数，结果反手看解析直接由被薄纱  
 
 
-## 11
+## ！118.杨辉三角
+### 方法一
+
 ## 217.存在重复元素
 ### 方法一：排序  
 ```C  
@@ -226,8 +228,8 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1MjU3NTIzLC0xNDU2MDA4NTQ1LDE4Nj
-E0OTc2NjIsMTYzOTEyNzI2MiwyMDI2MzY5MjEzLDEzODY4NzY1
-NTAsLTIzNTAzNTM1MiwxMzUxNzY4Mjg0LDMxODUxNzEzOCwzMj
-IwMTUwXX0=
+eyJoaXN0b3J5IjpbMTAyOTE2MjE1NywtMTQ1NjAwODU0NSwxOD
+YxNDk3NjYyLDE2MzkxMjcyNjIsMjAyNjM2OTIxMywxMzg2ODc2
+NTUwLC0yMzUwMzUzNTIsMTM1MTc2ODI4NCwzMTg1MTcxMzgsMz
+IyMDE1MF19
 -->
