@@ -18,7 +18,8 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize)
     return NULL;
 }
 ```
-* forxia
+* for侠永不认输
+### ！方法二：哈希表
 ## ！53.最大子数组和  
 ###  ！方法一：动态规划  
 
@@ -225,7 +226,7 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MzM3MDUwMSwxODYxNDk3NjYyLDE2Mz
-kxMjcyNjIsMjAyNjM2OTIxMywxMzg2ODc2NTUwLC0yMzUwMzUz
-NTIsMTM1MTc2ODI4NCwzMTg1MTcxMzgsMzIyMDE1MF19
+eyJoaXN0b3J5IjpbLTE0NTYwMDg1NDUsMTg2MTQ5NzY2MiwxNj
+M5MTI3MjYyLDIwMjYzNjkyMTMsMTM4Njg3NjU1MCwtMjM1MDM1
+MzUyLDEzNTE3NjgyODQsMzE4NTE3MTM4LDMyMjAxNTBdfQ==
 -->
