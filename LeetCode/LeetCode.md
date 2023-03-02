@@ -238,7 +238,9 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 
     for (int i = 0; i < r; i++) {
         (*returnColumnSizes)[i] = c;
+        //每一行的列数都是c
         ans[i] = malloc(sizeof(int) * c);
+        //ans[i]是第i行数组的首地址
     }
     for (int x = 0; x < m * n; ++x) {
         ans[x / c][x % c] = nums[x / n][x % n];
@@ -251,9 +253,9 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDE1NjUzMzgsMTIxNzYwNTYzOCw5MT
-cwNDgwMjEsLTE0NTkwODI2OTUsLTExNDk2MDM0MzEsLTE0NTYw
-MDg1NDUsMTg2MTQ5NzY2MiwxNjM5MTI3MjYyLDIwMjYzNjkyMT
-MsMTM4Njg3NjU1MCwtMjM1MDM1MzUyLDEzNTE3NjgyODQsMzE4
-NTE3MTM4LDMyMjAxNTBdfQ==
+eyJoaXN0b3J5IjpbNDQ5NDU5NDYsLTE3MDE1NjUzMzgsMTIxNz
+YwNTYzOCw5MTcwNDgwMjEsLTE0NTkwODI2OTUsLTExNDk2MDM0
+MzEsLTE0NTYwMDg1NDUsMTg2MTQ5NzY2MiwxNjM5MTI3MjYyLD
+IwMjYzNjkyMTMsMTM4Njg3NjU1MCwtMjM1MDM1MzUyLDEzNTE3
+NjgyODQsMzE4NTE3MTM4LDMyMjAxNTBdfQ==
 -->
