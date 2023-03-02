@@ -233,6 +233,7 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
     }
     *returnSize = r;
     *returnColumnSizes = malloc(sizeof(int) * r);
+    
     int** ans = malloc(sizeof(int*) * r);
 
     for (int i = 0; i < r; i++) {
@@ -250,9 +251,9 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNzYwNTYzOCw5MTcwNDgwMjEsLTE0NT
-kwODI2OTUsLTExNDk2MDM0MzEsLTE0NTYwMDg1NDUsMTg2MTQ5
-NzY2MiwxNjM5MTI3MjYyLDIwMjYzNjkyMTMsMTM4Njg3NjU1MC
-wtMjM1MDM1MzUyLDEzNTE3NjgyODQsMzE4NTE3MTM4LDMyMjAx
-NTBdfQ==
+eyJoaXN0b3J5IjpbMjMwNjMwNjE2LDEyMTc2MDU2MzgsOTE3MD
+Q4MDIxLC0xNDU5MDgyNjk1LC0xMTQ5NjAzNDMxLC0xNDU2MDA4
+NTQ1LDE4NjE0OTc2NjIsMTYzOTEyNzI2MiwyMDI2MzY5MjEzLD
+EzODY4NzY1NTAsLTIzNTAzNTM1MiwxMzUxNzY4Mjg0LDMxODUx
+NzEzOCwzMjIwMTUwXX0=
 -->
