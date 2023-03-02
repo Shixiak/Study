@@ -111,8 +111,8 @@ return false;
 ### 方法一
 ```C
 int** generate(int numRows, int* returnSize, int** returnColumnSizes) {
-	//numRows中存储的是杨辉三角的行数
-	//returnSize
+	//numRows和returnSize中存储的是杨辉三角的行数
+	//*returnColumnSizes存储的是
     int** ret = malloc(sizeof(int*) * numRows);
     *returnSize = numRows;
     *returnColumnSizes = malloc(sizeof(int) * numRows);
@@ -248,7 +248,7 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NzYyNzU1OCwtMTQ1OTA4MjY5NSwtMT
+eyJoaXN0b3J5IjpbLTY1NTkxODE2NywtMTQ1OTA4MjY5NSwtMT
 E0OTYwMzQzMSwtMTQ1NjAwODU0NSwxODYxNDk3NjYyLDE2Mzkx
 MjcyNjIsMjAyNjM2OTIxMywxMzg2ODc2NTUwLC0yMzUwMzUzNT
 IsMTM1MTc2ODI4NCwzMTg1MTcxMzgsMzIyMDE1MF19
