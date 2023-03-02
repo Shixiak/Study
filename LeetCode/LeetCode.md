@@ -222,7 +222,7 @@ int main()
 //int numSize表示传入数组的长度
 //int r,c,分别表示需转换矩阵行数和列数
 int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, int* returnSize, int** returnColumnSizes) {
-    
+    //第一步判断两个矩阵元素数量是否相同
     int m = numsSize;
     int n = numsColSize[0];
     //numsColSize[0]存的是数组nums的列数
@@ -250,7 +250,7 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NTc4NjMwMSw5MTcwNDgwMjEsLTE0NT
+eyJoaXN0b3J5IjpbMTIxNzYwNTYzOCw5MTcwNDgwMjEsLTE0NT
 kwODI2OTUsLTExNDk2MDM0MzEsLTE0NTYwMDg1NDUsMTg2MTQ5
 NzY2MiwxNjM5MTI3MjYyLDIwMjYzNjkyMTMsMTM4Njg3NjU1MC
 wtMjM1MDM1MzUyLDEzNTE3NjgyODQsMzE4NTE3MTM4LDMyMjAx
