@@ -126,6 +126,7 @@ int** generate(int numRows, int* returnSize, int** returnColumnSizes) {
 }
 ```
 * 二级指针真的。。。
+* 反复抄了几遍代码，感觉对二级指针有些理解了
 ## 217.存在重复元素
 ### 方法一：排序  
 ```C  
@@ -245,8 +246,8 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTkwODI2OTUsLTExNDk2MDM0MzEsLT
-E0NTYwMDg1NDUsMTg2MTQ5NzY2MiwxNjM5MTI3MjYyLDIwMjYz
-NjkyMTMsMTM4Njg3NjU1MCwtMjM1MDM1MzUyLDEzNTE3NjgyOD
-QsMzE4NTE3MTM4LDMyMjAxNTBdfQ==
+eyJoaXN0b3J5IjpbNTI3MDcwMDIwLC0xNDU5MDgyNjk1LC0xMT
+Q5NjAzNDMxLC0xNDU2MDA4NTQ1LDE4NjE0OTc2NjIsMTYzOTEy
+NzI2MiwyMDI2MzY5MjEzLDEzODY4NzY1NTAsLTIzNTAzNTM1Mi
+wxMzUxNzY4Mjg0LDMxODUxNzEzOCwzMjIwMTUwXX0=
 -->
