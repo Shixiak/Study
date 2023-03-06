@@ -113,7 +113,9 @@ return false;
 int** generate(int numRows, int* returnSize, int** returnColumnSizes) {
 	//numRows和returnSize中存储的是杨辉三角的行数
 	//*returnColumnSizes存储的是列数的数组的首地址,(*returnColumnSizes)[0]表示的是第0行的列数
+	
     int** ret = malloc(sizeof(int*) * numRows);
+    
     *returnSize = numRows;
     *returnColumnSizes = malloc(sizeof(int) * numRows);
     for (int i = 0; i < numRows; ++i) {
@@ -125,6 +127,7 @@ int** generate(int numRows, int* returnSize, int** returnColumnSizes) {
             ret[i][j] = ret[i - 1][j] + ret[i - 1][j - 1];
         }
     }
+    
     return ret;
 }
 ```
@@ -253,9 +256,10 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ5NDU5NDYsLTE3MDE1NjUzMzgsMTIxNz
-YwNTYzOCw5MTcwNDgwMjEsLTE0NTkwODI2OTUsLTExNDk2MDM0
-MzEsLTE0NTYwMDg1NDUsMTg2MTQ5NzY2MiwxNjM5MTI3MjYyLD
-IwMjYzNjkyMTMsMTM4Njg3NjU1MCwtMjM1MDM1MzUyLDEzNTE3
-NjgyODQsMzE4NTE3MTM4LDMyMjAxNTBdfQ==
+eyJoaXN0b3J5IjpbLTEzODIzNDM5MzIsNDQ5NDU5NDYsLTE3MD
+E1NjUzMzgsMTIxNzYwNTYzOCw5MTcwNDgwMjEsLTE0NTkwODI2
+OTUsLTExNDk2MDM0MzEsLTE0NTYwMDg1NDUsMTg2MTQ5NzY2Mi
+wxNjM5MTI3MjYyLDIwMjYzNjkyMTMsMTM4Njg3NjU1MCwtMjM1
+MDM1MzUyLDEzNTE3NjgyODQsMzE4NTE3MTM4LDMyMjAxNTBdfQ
+==
 -->
