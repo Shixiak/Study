@@ -47,7 +47,16 @@ int maxSubArray(int* nums, int numsSize)
 }  
 ```  
 ```C
-int maxArray(int* nums,int numsSizes)
+int maxArray(int* nums,int numsSize)
+{
+	int ans,sum;
+	
+	ans = sum = nums[0];
+	for (int i =; i < numsSize; i++) {
+		sum = 
+	}
+	return max;
+}
 ```
 
 * 定义状态（定义子问题）  
@@ -260,10 +269,10 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxODU5MDIyNiwyMTgyNzEyNzgsLTEzOD
-IzNDM5MzIsNDQ5NDU5NDYsLTE3MDE1NjUzMzgsMTIxNzYwNTYz
-OCw5MTcwNDgwMjEsLTE0NTkwODI2OTUsLTExNDk2MDM0MzEsLT
-E0NTYwMDg1NDUsMTg2MTQ5NzY2MiwxNjM5MTI3MjYyLDIwMjYz
-NjkyMTMsMTM4Njg3NjU1MCwtMjM1MDM1MzUyLDEzNTE3NjgyOD
-QsMzE4NTE3MTM4LDMyMjAxNTBdfQ==
+eyJoaXN0b3J5IjpbNzA3Mzc1MjgxLDIxODI3MTI3OCwtMTM4Mj
+M0MzkzMiw0NDk0NTk0NiwtMTcwMTU2NTMzOCwxMjE3NjA1NjM4
+LDkxNzA0ODAyMSwtMTQ1OTA4MjY5NSwtMTE0OTYwMzQzMSwtMT
+Q1NjAwODU0NSwxODYxNDk3NjYyLDE2MzkxMjcyNjIsMjAyNjM2
+OTIxMywxMzg2ODc2NTUwLC0yMzUwMzUzNTIsMTM1MTc2ODI4NC
+wzMTg1MTcxMzgsMzIyMDE1MF19
 -->
