@@ -18,7 +18,7 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize)
     return NULL;
 }
 ```
-* 二分查找 target - nums[i]
+* 二分查找 ==target - nums[i]==
 其实也可以优化一下，如果第一个数确定了就能锁定出第二个数的值，然后利用二分查找在数组里面查找是否存在这个数。当然这需要传入数组是一个有序的数组，但是考虑到这种算法的时间复杂度为O(nlogn)，所以可以利用快排函数qsort先进行排序，再进行二分查找。
 ### ！方法二：哈希表
 ## ！53.最大子数组和  
@@ -228,10 +228,11 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5Nzg3ODY1NSwtNjcxNzI5NjI4LDIxOD
-I3MTI3OCwtMTM4MjM0MzkzMiw0NDk0NTk0NiwtMTcwMTU2NTMz
-OCwxMjE3NjA1NjM4LDkxNzA0ODAyMSwtMTQ1OTA4MjY5NSwtMT
-E0OTYwMzQzMSwtMTQ1NjAwODU0NSwxODYxNDk3NjYyLDE2Mzkx
-MjcyNjIsMjAyNjM2OTIxMywxMzg2ODc2NTUwLC0yMzUwMzUzNT
-IsMTM1MTc2ODI4NCwzMTg1MTcxMzgsMzIyMDE1MF19
+eyJoaXN0b3J5IjpbLTQwMjY0NTk1MywxOTk3ODc4NjU1LC02Nz
+E3Mjk2MjgsMjE4MjcxMjc4LC0xMzgyMzQzOTMyLDQ0OTQ1OTQ2
+LC0xNzAxNTY1MzM4LDEyMTc2MDU2MzgsOTE3MDQ4MDIxLC0xND
+U5MDgyNjk1LC0xMTQ5NjAzNDMxLC0xNDU2MDA4NTQ1LDE4NjE0
+OTc2NjIsMTYzOTEyNzI2MiwyMDI2MzY5MjEzLDEzODY4NzY1NT
+AsLTIzNTAzNTM1MiwxMzUxNzY4Mjg0LDMxODUxNzEzOCwzMjIw
+MTUwXX0=
 -->
