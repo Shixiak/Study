@@ -37,7 +37,7 @@ int maxArray(int* nums,int numsSize)
 }
 ```
 * ==sumi==是以第i个元素结尾的最大子数列和
-* an's
+* ==ans==就应该是数组==sumi==中最大的一个
 ### ！方法二：分而治之  
 
 ```C  
@@ -227,10 +227,10 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODE1MDI3OTAsLTY3MTcyOTYyOCwyMT
-gyNzEyNzgsLTEzODIzNDM5MzIsNDQ5NDU5NDYsLTE3MDE1NjUz
-MzgsMTIxNzYwNTYzOCw5MTcwNDgwMjEsLTE0NTkwODI2OTUsLT
-ExNDk2MDM0MzEsLTE0NTYwMDg1NDUsMTg2MTQ5NzY2MiwxNjM5
-MTI3MjYyLDIwMjYzNjkyMTMsMTM4Njg3NjU1MCwtMjM1MDM1Mz
-UyLDEzNTE3NjgyODQsMzE4NTE3MTM4LDMyMjAxNTBdfQ==
+eyJoaXN0b3J5IjpbOTExMjc2MzAyLC02NzE3Mjk2MjgsMjE4Mj
+cxMjc4LC0xMzgyMzQzOTMyLDQ0OTQ1OTQ2LC0xNzAxNTY1MzM4
+LDEyMTc2MDU2MzgsOTE3MDQ4MDIxLC0xNDU5MDgyNjk1LC0xMT
+Q5NjAzNDMxLC0xNDU2MDA4NTQ1LDE4NjE0OTc2NjIsMTYzOTEy
+NzI2MiwyMDI2MzY5MjEzLDEzODY4NzY1NTAsLTIzNTAzNTM1Mi
+wxMzUxNzY4Mjg0LDMxODUxNzEzOCwzMjIwMTUwXX0=
 -->
