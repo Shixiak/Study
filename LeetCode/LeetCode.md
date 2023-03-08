@@ -21,7 +21,7 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize)
 * for侠永不认输
 ### ！方法二：哈希表
 ## ！53.最大子数组和  
-###  ！方法一：动态规划  
+###  方法一：动态规划  
 
 ```C
 int maxArray(int* nums,int numsSize)
@@ -37,7 +37,7 @@ int maxArray(int* nums,int numsSize)
 }
 ```
 
-### 方法二：分而治之  
+### ！方法二：分而治之  
 
 ```C  
 ```  
@@ -226,7 +226,7 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MTI5NjIzMiwyMTgyNzEyNzgsLTEzOD
+eyJoaXN0b3J5IjpbLTY3MTcyOTYyOCwyMTgyNzEyNzgsLTEzOD
 IzNDM5MzIsNDQ5NDU5NDYsLTE3MDE1NjUzMzgsMTIxNzYwNTYz
 OCw5MTcwNDgwMjEsLTE0NTkwODI2OTUsLTExNDk2MDM0MzEsLT
 E0NTYwMDg1NDUsMTg2MTQ5NzY2MiwxNjM5MTI3MjYyLDIwMjYz
