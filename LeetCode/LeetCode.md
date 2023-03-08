@@ -23,64 +23,19 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize)
 ## ！53.最大子数组和  
 ###  ！方法一：动态规划  
 
-```C  
-//  
-int maxSubArray(int* nums, int numsSize)   
-{  
-    int result;  
-    int* f = (int*)malloc(sizeof(int) * numsSize);  
-  
-    f[0] = nums[0];  
-  
-    for (int i = 1; i < numsSize; i++) {  
-        f[i] = fmax(f[i - 1] + nums[i], nums[i]);  
-    }  
-	//动态规划的核心思想，将问题细化为以nums[i]结尾的最大子数组  
-    result = f[0];  
-  
-    for (int i = 1; i < numsSize; i++) {  
-        result = fmax(result, f[i]);  
-    }  
-  
-    free(f);  
-    return result;  
-}  
-```  
 ```C
 int maxArray(int* nums,int numsSize)
 {
-	int ans,sum;
+	int ans = nums[0],sumi = nums[0];
 	
-	ans = sum = nums[0];
 	for (int i =; i < numsSize; i++) {
-		sumi = fmax(sum + nums[i], nums[i]);
+		sumi = fmax(sumi + nums[i], nums[i]);
 		ans = fmax(sum,ans);
 	}
 	
 	return ans;
 }
 ```
-
-* 定义状态（定义子问题）  
-  
-
- **f [ i ]** 是以 **nums[ i ]** 结尾的最大子数组，**res = max { f [ i ] }**  
-
- * 状态转移方程（描述子问题之间的关系）  
-  
-
- **f [ i ]  = max { f [ i-1 ] + nums[ i ] , nums[ i ] }**   
-
- * 初始化  
-  
-
- **f [ 0 ] = nums[ 0 ]**，i > 1 是可由递推关系获得  
-
- * 输出  
-  
-
- **res = max { f [ i ] }**  
-  
 
 ### 方法二：分而治之  
 
@@ -271,10 +226,10 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE0NTkyMTk4LDIxODI3MTI3OCwtMTM4Mj
-M0MzkzMiw0NDk0NTk0NiwtMTcwMTU2NTMzOCwxMjE3NjA1NjM4
-LDkxNzA0ODAyMSwtMTQ1OTA4MjY5NSwtMTE0OTYwMzQzMSwtMT
-Q1NjAwODU0NSwxODYxNDk3NjYyLDE2MzkxMjcyNjIsMjAyNjM2
-OTIxMywxMzg2ODc2NTUwLC0yMzUwMzUzNTIsMTM1MTc2ODI4NC
-wzMTg1MTcxMzgsMzIyMDE1MF19
+eyJoaXN0b3J5IjpbMjA1MTI5NjIzMiwyMTgyNzEyNzgsLTEzOD
+IzNDM5MzIsNDQ5NDU5NDYsLTE3MDE1NjUzMzgsMTIxNzYwNTYz
+OCw5MTcwNDgwMjEsLTE0NTkwODI2OTUsLTExNDk2MDM0MzEsLT
+E0NTYwMDg1NDUsMTg2MTQ5NzY2MiwxNjM5MTI3MjYyLDIwMjYz
+NjkyMTMsMTM4Njg3NjU1MCwtMjM1MDM1MzUyLDEzNTE3NjgyOD
+QsMzE4NTE3MTM4LDMyMjAxNTBdfQ==
 -->
