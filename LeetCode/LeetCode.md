@@ -53,9 +53,11 @@ int maxArray(int* nums,int numsSize)
 	
 	ans = sum = nums[0];
 	for (int i =; i < numsSize; i++) {
-		sum = 
+		sumi = fmax(sum + nums[i], nums[i]);
+		ans = fmax(sum,ans);
 	}
-	return max;
+	
+	return ans;
 }
 ```
 
@@ -269,7 +271,7 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA3Mzc1MjgxLDIxODI3MTI3OCwtMTM4Mj
+eyJoaXN0b3J5IjpbNjE0NTkyMTk4LDIxODI3MTI3OCwtMTM4Mj
 M0MzkzMiw0NDk0NTk0NiwtMTcwMTU2NTMzOCwxMjE3NjA1NjM4
 LDkxNzA0ODAyMSwtMTQ1OTA4MjY5NSwtMTE0OTYwMzQzMSwtMT
 Q1NjAwODU0NSwxODYxNDk3NjYyLDE2MzkxMjcyNjIsMjAyNjM2
