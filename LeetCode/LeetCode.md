@@ -36,8 +36,8 @@ int maxArray(int* nums,int numsSize)
 	return ans;
 }
 ```
-* 
-       * di
+* ==sumi==是以第i个元素结尾的最大子数列和
+* an's
 ### ！方法二：分而治之  
 
 ```C  
@@ -227,7 +227,7 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDE1NzEyMDEsLTY3MTcyOTYyOCwyMT
+eyJoaXN0b3J5IjpbLTEzODE1MDI3OTAsLTY3MTcyOTYyOCwyMT
 gyNzEyNzgsLTEzODIzNDM5MzIsNDQ5NDU5NDYsLTE3MDE1NjUz
 MzgsMTIxNzYwNTYzOCw5MTcwNDgwMjEsLTE0NTkwODI2OTUsLT
 ExNDk2MDM0MzEsLTE0NTYwMDg1NDUsMTg2MTQ5NzY2MiwxNjM5
