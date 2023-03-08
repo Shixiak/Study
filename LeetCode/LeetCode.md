@@ -18,7 +18,7 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize)
     return NULL;
 }
 ```
-* 其实也可以优化一下，如果第一个数确定了jiu'neng
+* 其实也可以优化一下，如果第一个数确定了就能锁定出第二个数的值，然后利用二分查找在数组里面查找是否存在这个数。当然这需要传入数组是一个有序的数组，但是考虑到这种算法的shi'jian'fu'za
 ### ！方法二：哈希表
 ## ！53.最大子数组和  
 ###  方法一：动态规划  
@@ -227,10 +227,10 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
 二级指针，我看你是一点都不懂啊
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDQxOTU3OTYsLTY3MTcyOTYyOCwyMT
-gyNzEyNzgsLTEzODIzNDM5MzIsNDQ5NDU5NDYsLTE3MDE1NjUz
-MzgsMTIxNzYwNTYzOCw5MTcwNDgwMjEsLTE0NTkwODI2OTUsLT
-ExNDk2MDM0MzEsLTE0NTYwMDg1NDUsMTg2MTQ5NzY2MiwxNjM5
-MTI3MjYyLDIwMjYzNjkyMTMsMTM4Njg3NjU1MCwtMjM1MDM1Mz
-UyLDEzNTE3NjgyODQsMzE4NTE3MTM4LDMyMjAxNTBdfQ==
+eyJoaXN0b3J5IjpbODYxMzk1NDY0LC02NzE3Mjk2MjgsMjE4Mj
+cxMjc4LC0xMzgyMzQzOTMyLDQ0OTQ1OTQ2LC0xNzAxNTY1MzM4
+LDEyMTc2MDU2MzgsOTE3MDQ4MDIxLC0xNDU5MDgyNjk1LC0xMT
+Q5NjAzNDMxLC0xNDU2MDA4NTQ1LDE4NjE0OTc2NjIsMTYzOTEy
+NzI2MiwyMDI2MzY5MjEzLDEzODY4NzY1NTAsLTIzNTAzNTM1Mi
+wxMzUxNzY4Mjg0LDMxODUxNzEzOCwzMjIwMTUwXX0=
 -->
