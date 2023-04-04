@@ -5,9 +5,12 @@
 * P6-pywinauto连接已经打开的程序
 * P7-pywinauto选择指定的窗口
 * P8-窗口的操作方法
+	* 最大化和最小化的操作
+
 * P9-窗口控件的选择
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NzE4NDQwLC0yNTc0NjYyNjcsMTc4Mz
-U4Njg5MSwtMTE4Nzc2MTAwOCwtMTU1ODM0NjA5Niw1NDE3MTUy
-NzQsMjIyNzg0MTE5LC0xMzgyOTEwMzcxXX0=
+eyJoaXN0b3J5IjpbLTE1MzQ2Nzc1MDcsLTc2NzE4NDQwLC0yNT
+c0NjYyNjcsMTc4MzU4Njg5MSwtMTE4Nzc2MTAwOCwtMTU1ODM0
+NjA5Niw1NDE3MTUyNzQsMjIyNzg0MTE5LC0xMzgyOTEwMzcxXX
+0=
 -->
