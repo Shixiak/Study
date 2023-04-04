@@ -5,8 +5,9 @@
 * P6-pywinauto连接已经打开的程序
 * P7-pywinauto选择指定的窗口
 * P8-窗口的操作方法
+* P9-窗口控件的选择
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NzQ2NjI2NywxNzgzNTg2ODkxLC0xMT
-g3NzYxMDA4LC0xNTU4MzQ2MDk2LDU0MTcxNTI3NCwyMjI3ODQx
-MTksLTEzODI5MTAzNzFdfQ==
+eyJoaXN0b3J5IjpbLTc2NzE4NDQwLC0yNTc0NjYyNjcsMTc4Mz
+U4Njg5MSwtMTE4Nzc2MTAwOCwtMTU1ODM0NjA5Niw1NDE3MTUy
+NzQsMjIyNzg0MTE5LC0xMzgyOTEwMzcxXX0=
 -->
