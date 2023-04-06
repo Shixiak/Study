@@ -49,9 +49,10 @@ dlg.close()
 
 #获取窗口显示位置
 rect = dlg.rectangle
+rect = (L,T,R,B)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgzODYwMjU4LC0xODY0NTUwODgxLDk5OD
+eyJoaXN0b3J5IjpbMTY1Mzg5MTc0LC0xODY0NTUwODgxLDk5OD
 Q5NjUzMSw5OTg0OTY1MzEsLTE1MzQ2Nzc1MDcsLTc2NzE4NDQw
 LC0yNTc0NjYyNjcsMTc4MzU4Njg5MSwtMTE4Nzc2MTAwOCwtMT
 U1ODM0NjA5Niw1NDE3MTUyNzQsMjIyNzg0MTE5LC0xMzgyOTEw
