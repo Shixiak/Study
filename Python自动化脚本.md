@@ -20,13 +20,16 @@ dlg = app["TNavicatMainForm"]
 dlg = app["Navicat for MySQL“]
 
 #方式二
-dlg = app.
+#app.窗口类名
+dlg = app.TNavicatMainForm
+#app.窗口标题
+dlg 
 
 #打印窗口所有的控件
 dlg.print_control_identifiers()
 ```	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNzMwODQ3Niw5OTg0OTY1MzEsOTk4ND
+eyJoaXN0b3J5IjpbLTU5MjU2NDM2Nyw5OTg0OTY1MzEsOTk4ND
 k2NTMxLC0xNTM0Njc3NTA3LC03NjcxODQ0MCwtMjU3NDY2MjY3
 LDE3ODM1ODY4OTEsLTExODc3NjEwMDgsLTE1NTgzNDYwOTYsNT
 QxNzE1Mjc0LDIyMjc4NDExOSwtMTM4MjkxMDM3MV19
