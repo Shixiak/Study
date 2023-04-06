@@ -41,13 +41,16 @@ dlg.minimize()
 #窗口恢复正常
 dlg.restore()
 
-#获得窗口显示状态
-statusdlg.get_show_state()
+#获得窗口显示状态：最大化(1)，正常(0)
+status = dlg.get_show_state()
+
+#关闭窗口
+ d'lg
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MDE2OTk3MSwtMTg2NDU1MDg4MSw5OT
-g0OTY1MzEsOTk4NDk2NTMxLC0xNTM0Njc3NTA3LC03NjcxODQ0
-MCwtMjU3NDY2MjY3LDE3ODM1ODY4OTEsLTExODc3NjEwMDgsLT
-E1NTgzNDYwOTYsNTQxNzE1Mjc0LDIyMjc4NDExOSwtMTM4Mjkx
-MDM3MV19
+eyJoaXN0b3J5IjpbLTE5Njk4NTU4NjgsLTE4NjQ1NTA4ODEsOT
+k4NDk2NTMxLDk5ODQ5NjUzMSwtMTUzNDY3NzUwNywtNzY3MTg0
+NDAsLTI1NzQ2NjI2NywxNzgzNTg2ODkxLC0xMTg3NzYxMDA4LC
+0xNTU4MzQ2MDk2LDU0MTcxNTI3NCwyMjI3ODQxMTksLTEzODI5
+MTAzNzFdfQ==
 -->
