@@ -45,12 +45,15 @@ dlg.restore()
 status = dlg.get_show_state()
 
 #关闭窗口
- d'lg
+dlg.close()
+
+#获取窗口显示位置
+rect = dlg.rectangle
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njk4NTU4NjgsLTE4NjQ1NTA4ODEsOT
-k4NDk2NTMxLDk5ODQ5NjUzMSwtMTUzNDY3NzUwNywtNzY3MTg0
-NDAsLTI1NzQ2NjI2NywxNzgzNTg2ODkxLC0xMTg3NzYxMDA4LC
-0xNTU4MzQ2MDk2LDU0MTcxNTI3NCwyMjI3ODQxMTksLTEzODI5
-MTAzNzFdfQ==
+eyJoaXN0b3J5IjpbODgzODYwMjU4LC0xODY0NTUwODgxLDk5OD
+Q5NjUzMSw5OTg0OTY1MzEsLTE1MzQ2Nzc1MDcsLTc2NzE4NDQw
+LC0yNTc0NjYyNjcsMTc4MzU4Njg5MSwtMTE4Nzc2MTAwOCwtMT
+U1ODM0NjA5Niw1NDE3MTUyNzQsMjIyNzg0MTE5LC0xMzgyOTEw
+MzcxXX0=
 -->
