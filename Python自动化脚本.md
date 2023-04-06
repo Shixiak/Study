@@ -13,14 +13,17 @@
 
 ## P7 选择指定的窗口
 ```Python
+#方式一
 #使用窗口类名选择窗口
 dlg = app["TNavicatMainForm"]
+#通过窗口标题选择
+dlg = app["]
 
 #打印窗口所有的控件
-dlg.print_control_i
+dlg.print_control_identifiers()
 ```	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTcyMTMwODgsOTk4NDk2NTMxLDk5OD
+eyJoaXN0b3J5IjpbLTIxMDkwMjY0MDMsOTk4NDk2NTMxLDk5OD
 Q5NjUzMSwtMTUzNDY3NzUwNywtNzY3MTg0NDAsLTI1NzQ2NjI2
 NywxNzgzNTg2ODkxLC0xMTg3NzYxMDA4LC0xNTU4MzQ2MDk2LD
 U0MTcxNTI3NCwyMjI3ODQxMTksLTEzODI5MTAzNzFdfQ==
