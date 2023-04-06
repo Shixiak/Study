@@ -13,11 +13,11 @@
 
 ## P7 选择指定的窗口
 ```Python
-from pywinauto.application import Application
-# 根据窗口的
+# 使用窗口类名选择窗口
+app["TNavicatMainF"]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3OTQ4NTg5LDk5ODQ5NjUzMSw5OTg0OT
+eyJoaXN0b3J5IjpbMjA2MjAxNjcyLDk5ODQ5NjUzMSw5OTg0OT
 Y1MzEsLTE1MzQ2Nzc1MDcsLTc2NzE4NDQwLC0yNTc0NjYyNjcs
 MTc4MzU4Njg5MSwtMTE4Nzc2MTAwOCwtMTU1ODM0NjA5Niw1ND
 E3MTUyNzQsMjIyNzg0MTE5LC0xMzgyOTEwMzcxXX0=
