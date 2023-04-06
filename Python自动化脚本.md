@@ -33,17 +33,21 @@ dlg.print_control_identifiers()
 ## P8 窗口的操作方法
 ```Python
 #窗口最大化
-app.maximize()
+dlg.maximize()
 
 #窗口最小化
-app.minimize()
+dlg.minimize()
 
-#il'kz'hv'fu'vg
+#窗口恢复正常
+dlg.restore()
+
+#获得窗口显示状态
+statusdlg.get_show_state()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDE4MDgxNjcsLTE4NjQ1NTA4ODEsOT
-k4NDk2NTMxLDk5ODQ5NjUzMSwtMTUzNDY3NzUwNywtNzY3MTg0
-NDAsLTI1NzQ2NjI2NywxNzgzNTg2ODkxLC0xMTg3NzYxMDA4LC
-0xNTU4MzQ2MDk2LDU0MTcxNTI3NCwyMjI3ODQxMTksLTEzODI5
-MTAzNzFdfQ==
+eyJoaXN0b3J5IjpbLTQ1MDE2OTk3MSwtMTg2NDU1MDg4MSw5OT
+g0OTY1MzEsOTk4NDk2NTMxLC0xNTM0Njc3NTA3LC03NjcxODQ0
+MCwtMjU3NDY2MjY3LDE3ODM1ODY4OTEsLTExODc3NjEwMDgsLT
+E1NTgzNDYwOTYsNTQxNzE1Mjc0LDIyMjc4NDExOSwtMTM4Mjkx
+MDM3MV19
 -->
