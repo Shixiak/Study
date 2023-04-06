@@ -13,10 +13,11 @@
 
 ## P7 选择指定的窗口
 ```Python
-from Application import 
+from pywinauto.application import Application
+# 根据窗口的
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NjU1Nzk3LDk5ODQ5NjUzMSw5OTg0OT
+eyJoaXN0b3J5IjpbNzc3OTQ4NTg5LDk5ODQ5NjUzMSw5OTg0OT
 Y1MzEsLTE1MzQ2Nzc1MDcsLTc2NzE4NDQwLC0yNTc0NjYyNjcs
 MTc4MzU4Njg5MSwtMTE4Nzc2MTAwOCwtMTU1ODM0NjA5Niw1ND
 E3MTUyNzQsMjIyNzg0MTE5LC0xMzgyOTEwMzcxXX0=
