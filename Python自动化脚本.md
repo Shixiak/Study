@@ -54,7 +54,10 @@ rect = (L,T,R,B)
 
 ## P9 窗口控件的选择
 ```Python
-#方法一：使用viewWizard查看
+#查看窗口的方法
+
+#方法一：
+#使用viewWizard查看
 
 #方法二
 #打印窗口所有的控件
@@ -63,9 +66,9 @@ dlg.print_control_identifiers()
 #要素过多建议不会就直接看视频
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzcwMTc4MjEsMTM4NDc4MjUyMywtMT
-g2NDU1MDg4MSw5OTg0OTY1MzEsOTk4NDk2NTMxLC0xNTM0Njc3
-NTA3LC03NjcxODQ0MCwtMjU3NDY2MjY3LDE3ODM1ODY4OTEsLT
-ExODc3NjEwMDgsLTE1NTgzNDYwOTYsNTQxNzE1Mjc0LDIyMjc4
-NDExOSwtMTM4MjkxMDM3MV19
+eyJoaXN0b3J5IjpbMTgzNzgwNzA2MSwtMjAzNzAxNzgyMSwxMz
+g0NzgyNTIzLC0xODY0NTUwODgxLDk5ODQ5NjUzMSw5OTg0OTY1
+MzEsLTE1MzQ2Nzc1MDcsLTc2NzE4NDQwLC0yNTc0NjYyNjcsMT
+c4MzU4Njg5MSwtMTE4Nzc2MTAwOCwtMTU1ODM0NjA5Niw1NDE3
+MTUyNzQsMjIyNzg0MTE5LC0xMzgyOTEwMzcxXX0=
 -->
