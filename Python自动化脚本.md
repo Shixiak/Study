@@ -77,18 +77,18 @@ dlg.print_control_identifiers()
 menu = dlg["menu"]
 
 #选择菜单项：文件
-myfile = menu.child_window(title = "文件")
+File = menu.child_window(title = "文件")
 
 #查看控件类型
 print(dlg.wrapper_object())
 print(menu.wrapper_object())
-print(myfile.wrapper_object())
+print(File.wrapper_object())
 
 #查看控件支持的方法
 print(dir(dlg.wrapper_object()))
 
 #控件文本内容的获取
-print(file.texts())
+print(File.texts())
 
 #获取控件子元素
 print(dlg.children())
@@ -107,8 +107,12 @@ print(menu.get_properties())
 ```Python
 menu = dlg["menu"]
 File = menu.child_window(title = "文件")
+
+#截图处理
+Pic = 
+#截图窗口
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzI3Mjk2NDcsLTE1MjgxMTgzMTgsMT
+eyJoaXN0b3J5IjpbLTE4MDg0NzA4NDAsLTE1MjgxMTgzMTgsMT
 gzNzgwNzA2MSwtMjAzNzAxNzgyMSwxMzg0NzgyNTIzLC0xODY0
 NTUwODgxLDk5ODQ5NjUzMSw5OTg0OTY1MzEsLTE1MzQ2Nzc1MD
 csLTc2NzE4NDQwLC0yNTc0NjYyNjcsMTc4MzU4Njg5MSwtMTE4
