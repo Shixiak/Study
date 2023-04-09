@@ -84,10 +84,14 @@ print(dlg.wrapper_object())
 print(menu.wrapper_object())
 print(myfile.wrapper_object())
 
-#i
+#查看控件支持的方法
+print(dir(dlg.wrapper_object()))
+
+#控件文本内容的获取
+print()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDM1OTQ1MTQsLTE1MjgxMTgzMTgsMT
+eyJoaXN0b3J5IjpbLTE4NzE1NTA3MjksLTE1MjgxMTgzMTgsMT
 gzNzgwNzA2MSwtMjAzNzAxNzgyMSwxMzg0NzgyNTIzLC0xODY0
 NTUwODgxLDk5ODQ5NjUzMSw5OTg0OTY1MzEsLTE1MzQ2Nzc1MD
 csLTc2NzE4NDQwLC0yNTc0NjYyNjcsMTc4MzU4Njg5MSwtMTE4
