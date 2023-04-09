@@ -108,15 +108,15 @@ print(menu.get_properties())
 menu = dlg["menu"]
 File = menu.child_window(title = "文件")
 
-#截图处理
-Pic = dlg.caputure_as_image
-Pic.
 #截图窗口
+Pic = dlg.caputure_as_image
+Pic.save("01.png")
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDg3ODY4MDksLTE1MjgxMTgzMTgsMT
-gzNzgwNzA2MSwtMjAzNzAxNzgyMSwxMzg0NzgyNTIzLC0xODY0
-NTUwODgxLDk5ODQ5NjUzMSw5OTg0OTY1MzEsLTE1MzQ2Nzc1MD
-csLTc2NzE4NDQwLC0yNTc0NjYyNjcsMTc4MzU4Njg5MSwtMTE4
-Nzc2MTAwOCwtMTU1ODM0NjA5Niw1NDE3MTUyNzQsMjIyNzg0MT
-E5LC0xMzgyOTEwMzcxXX0=
+eyJoaXN0b3J5IjpbMTkyNDE3NDUyNiwtMTUyODExODMxOCwxOD
+M3ODA3MDYxLC0yMDM3MDE3ODIxLDEzODQ3ODI1MjMsLTE4NjQ1
+NTA4ODEsOTk4NDk2NTMxLDk5ODQ5NjUzMSwtMTUzNDY3NzUwNy
+wtNzY3MTg0NDAsLTI1NzQ2NjI2NywxNzgzNTg2ODkxLC0xMTg3
+NzYxMDA4LC0xNTU4MzQ2MDk2LDU0MTcxNTI3NCwyMjI3ODQxMT
+ksLTEzODI5MTAzNzFdfQ==
 -->
