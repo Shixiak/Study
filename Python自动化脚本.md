@@ -95,9 +95,15 @@ print(dlg.children())
 
 #获取菜单子元素
 print(menu.children())
+
+#获取控件的类名
+print(menu.class_name())
+
+#获取控件的所有的属性
+print(menu.get_properties())
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDg2ODU2MDAsLTE1MjgxMTgzMTgsMT
+eyJoaXN0b3J5IjpbLTE0MjI0NDMyNDYsLTE1MjgxMTgzMTgsMT
 gzNzgwNzA2MSwtMjAzNzAxNzgyMSwxMzg0NzgyNTIzLC0xODY0
 NTUwODgxLDk5ODQ5NjUzMSw5OTg0OTY1MzEsLTE1MzQ2Nzc1MD
 csLTc2NzE4NDQwLC0yNTc0NjYyNjcsMTc4MzU4Njg5MSwtMTE4
