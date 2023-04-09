@@ -102,8 +102,12 @@ print(menu.class_name())
 #获取控件的所有的属性，返回的是字典
 print(menu.get_properties())
 ```
+
+## P12 控件及窗口的截图操作
+```Python
+menu = 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxOTYwMjg3NiwtMTUyODExODMxOCwxOD
+eyJoaXN0b3J5IjpbLTU1MzYwMDY5OSwtMTUyODExODMxOCwxOD
 M3ODA3MDYxLC0yMDM3MDE3ODIxLDEzODQ3ODI1MjMsLTE4NjQ1
 NTA4ODEsOTk4NDk2NTMxLDk5ODQ5NjUzMSwtMTUzNDY3NzUwNy
 wtNzY3MTg0NDAsLTI1NzQ2NjI2NywxNzgzNTg2ODkxLC0xMTg3
