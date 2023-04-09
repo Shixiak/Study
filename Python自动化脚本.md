@@ -109,10 +109,11 @@ menu = dlg["menu"]
 File = menu.child_window(title = "文件")
 
 #截图处理
-Pic = 
+Pic = dlg.caputure_as_image
+Pic.
 #截图窗口
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDg0NzA4NDAsLTE1MjgxMTgzMTgsMT
+eyJoaXN0b3J5IjpbLTEwNDg3ODY4MDksLTE1MjgxMTgzMTgsMT
 gzNzgwNzA2MSwtMjAzNzAxNzgyMSwxMzg0NzgyNTIzLC0xODY0
 NTUwODgxLDk5ODQ5NjUzMSw5OTg0OTY1MzEsLTE1MzQ2Nzc1MD
 csLTc2NzE4NDQwLC0yNTc0NjYyNjcsMTc4MzU4Njg5MSwtMTE4
