@@ -79,10 +79,13 @@ menu = dlg["menu"]
 #选择菜单项：文件
 file = menu.child_window(title = "文件")
 
-
+#查看控件类型
+print(dlg.wrapper_object())
+print(menu.wrapper_object())
+print(file.wrapper_object())
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI2MjU3MTg0LC0xNTI4MTE4MzE4LDE4Mz
+eyJoaXN0b3J5IjpbNDA4Nzc4ODkyLC0xNTI4MTE4MzE4LDE4Mz
 c4MDcwNjEsLTIwMzcwMTc4MjEsMTM4NDc4MjUyMywtMTg2NDU1
 MDg4MSw5OTg0OTY1MzEsOTk4NDk2NTMxLC0xNTM0Njc3NTA3LC
 03NjcxODQ0MCwtMjU3NDY2MjY3LDE3ODM1ODY4OTEsLTExODc3
