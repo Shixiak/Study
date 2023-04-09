@@ -88,13 +88,16 @@ print(myfile.wrapper_object())
 print(dir(dlg.wrapper_object()))
 
 #控件文本内容的获取
-print()
+print(file.texts())
+
+#获取控件子元素
+print(dlg.children())
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzE1NTA3MjksLTE1MjgxMTgzMTgsMT
-gzNzgwNzA2MSwtMjAzNzAxNzgyMSwxMzg0NzgyNTIzLC0xODY0
-NTUwODgxLDk5ODQ5NjUzMSw5OTg0OTY1MzEsLTE1MzQ2Nzc1MD
-csLTc2NzE4NDQwLC0yNTc0NjYyNjcsMTc4MzU4Njg5MSwtMTE4
-Nzc2MTAwOCwtMTU1ODM0NjA5Niw1NDE3MTUyNzQsMjIyNzg0MT
-E5LC0xMzgyOTEwMzcxXX0=
+eyJoaXN0b3J5IjpbMTI4ODAyNDA5OSwtMTUyODExODMxOCwxOD
+M3ODA3MDYxLC0yMDM3MDE3ODIxLDEzODQ3ODI1MjMsLTE4NjQ1
+NTA4ODEsOTk4NDk2NTMxLDk5ODQ5NjUzMSwtMTUzNDY3NzUwNy
+wtNzY3MTg0NDAsLTI1NzQ2NjI2NywxNzgzNTg2ODkxLC0xMTg3
+NzYxMDA4LC0xNTU4MzQ2MDk2LDU0MTcxNTI3NCwyMjI3ODQxMT
+ksLTEzODI5MTAzNzFdfQ==
 -->
