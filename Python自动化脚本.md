@@ -139,9 +139,10 @@ File.click_input()
 new_dlg = app["新建连接"]
 new.dlg.wait(wait_for("ready"), timeout = 10, retry_interval = 1)
 
+```
 这里的新建连接和上一集的新建连接...不是同一个东西，一个是控件，一个是窗口名
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3Mzk4OTEyNSwxMTg2ODIxNjA1LC0xNz
+eyJoaXN0b3J5IjpbMTMzMTIzOTUwNSwxMTg2ODIxNjA1LC0xNz
 I0NjgxMDQ3LDE5MjQxNzQ1MjYsLTE1MjgxMTgzMTgsMTgzNzgw
 NzA2MSwtMjAzNzAxNzgyMSwxMzg0NzgyNTIzLC0xODY0NTUwOD
 gxLDk5ODQ5NjUzMSw5OTg0OTY1MzEsLTE1MzQ2Nzc1MDcsLTc2
