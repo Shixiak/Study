@@ -113,8 +113,13 @@ Pic = dlg.caputure_as_image
 Pic.save("01.png")
 ```
 
+## P13菜单控件相关的操作
+```Python
+#获取菜单的子菜单项
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1ODkzMTYyMCwxOTI0MTc0NTI2LC0xNT
+eyJoaXN0b3J5IjpbMTQ2MzI3OTk1OSwxOTI0MTc0NTI2LC0xNT
 I4MTE4MzE4LDE4Mzc4MDcwNjEsLTIwMzcwMTc4MjEsMTM4NDc4
 MjUyMywtMTg2NDU1MDg4MSw5OTg0OTY1MzEsOTk4NDk2NTMxLC
 0xNTM0Njc3NTA3LC03NjcxODQ0MCwtMjU3NDY2MjY3LDE3ODM1
