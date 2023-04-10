@@ -1,15 +1,4 @@
 # 进度
-* P3-自动化的切入点
-* P4-程序检查辅助工具的使用
-* P5-pywinauto打开指定应用程序
-* P6-pywinauto连接已经打开的程序
-* P7-pywinauto选择指定的窗口
-	* 通过类名和窗口名称选择窗口
-	* app.connect.
-* P8-窗口的操作方法
-	* 最大化和最小化的操作
-
-* P9-窗口控件的选择
 
 ## P7 选择指定的窗口
 ```Python
@@ -113,7 +102,7 @@ Pic = dlg.caputure_as_image
 Pic.save("01.png")
 ```
 
-## P13菜单控件相关的操作
+## P13 菜单控件相关的操作
 ```Python
 #获取菜单的子菜单项
 print(menu.item())
@@ -133,11 +122,14 @@ new_connect = menu.item_by_path("文件->新建连接...")
 File.items()
 #点击的方法
 File.click_input()
+```
+
+## P14 pywinauto中的等待机制
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNjA4NDg3LDE5MjQxNzQ1MjYsLTE1Mj
-gxMTgzMTgsMTgzNzgwNzA2MSwtMjAzNzAxNzgyMSwxMzg0Nzgy
-NTIzLC0xODY0NTUwODgxLDk5ODQ5NjUzMSw5OTg0OTY1MzEsLT
-E1MzQ2Nzc1MDcsLTc2NzE4NDQwLC0yNTc0NjYyNjcsMTc4MzU4
-Njg5MSwtMTE4Nzc2MTAwOCwtMTU1ODM0NjA5Niw1NDE3MTUyNz
-QsMjIyNzg0MTE5LC0xMzgyOTEwMzcxXX0=
+eyJoaXN0b3J5IjpbLTE3MjQ2ODEwNDcsMTkyNDE3NDUyNiwtMT
+UyODExODMxOCwxODM3ODA3MDYxLC0yMDM3MDE3ODIxLDEzODQ3
+ODI1MjMsLTE4NjQ1NTA4ODEsOTk4NDk2NTMxLDk5ODQ5NjUzMS
+wtMTUzNDY3NzUwNywtNzY3MTg0NDAsLTI1NzQ2NjI2NywxNzgz
+NTg2ODkxLC0xMTg3NzYxMDA4LC0xNTU4MzQ2MDk2LDU0MTcxNT
+I3NCwyMjI3ODQxMTksLTEzODI5MTAzNzFdfQ==
 -->
