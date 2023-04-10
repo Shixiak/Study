@@ -132,9 +132,9 @@ new_connect = menu.item_by_path("文件->新建连接...")
 #获取子菜单项
 File.items()
 #点击的方法
-File.click_i
+File.click_input()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIyNTczMTkzLDE5MjQxNzQ1MjYsLTE1Mj
+eyJoaXN0b3J5IjpbMTUyNjA4NDg3LDE5MjQxNzQ1MjYsLTE1Mj
 gxMTgzMTgsMTgzNzgwNzA2MSwtMjAzNzAxNzgyMSwxMzg0Nzgy
 NTIzLC0xODY0NTUwODgxLDk5ODQ5NjUzMSw5OTg0OTY1MzEsLT
 E1MzQ2Nzc1MDcsLTc2NzE4NDQwLC0yNTc0NjYyNjcsMTc4MzU4
