@@ -125,9 +125,12 @@ File.click_input()
 ```
 
 ## P14 pywinauto中的等待机制
-###
+### wait方法
+作用：等待窗口处于某个状态
+* wait_for：等待的状态
+	* exist：表示该窗口是否有效的句柄
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzk4NDc0MzAsLTE3MjQ2ODEwNDcsMT
+eyJoaXN0b3J5IjpbLTE3ODM0MDE5NDUsLTE3MjQ2ODEwNDcsMT
 kyNDE3NDUyNiwtMTUyODExODMxOCwxODM3ODA3MDYxLC0yMDM3
 MDE3ODIxLDEzODQ3ODI1MjMsLTE4NjQ1NTA4ODEsOTk4NDk2NT
 MxLDk5ODQ5NjUzMSwtMTUzNDY3NzUwNywtNzY3MTg0NDAsLTI1
