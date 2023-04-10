@@ -133,8 +133,10 @@ File.click_input()
 	* enabled：表示该窗口是否启用
 	* ready：表示该窗口是否启用并可见
 	* active：表示该窗口处于活动状态
+* timeout：超时时间
+* retry_interval：重试间隔
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MDM3ODE0NSwtMTcyNDY4MTA0NywxOT
+eyJoaXN0b3J5IjpbMTE4NjgyMTYwNSwtMTcyNDY4MTA0NywxOT
 I0MTc0NTI2LC0xNTI4MTE4MzE4LDE4Mzc4MDcwNjEsLTIwMzcw
 MTc4MjEsMTM4NDc4MjUyMywtMTg2NDU1MDg4MSw5OTg0OTY1Mz
 EsOTk4NDk2NTMxLC0xNTM0Njc3NTA3LC03NjcxODQ0MCwtMjU3
