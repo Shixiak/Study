@@ -143,10 +143,12 @@ new.dlg.wait(wait_for("ready"), timeout = 10, retry_interval = 1)
 ```Python
 #wait_cpu_usage_lower
 #参数
-#th
+#threshold：cpu占用率
+#timeout
+#retry_interval
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIwMTAxNzQ2LDEzMzEyMzk1MDUsMTE4Nj
+eyJoaXN0b3J5IjpbODE3NDkxNjk3LDEzMzEyMzk1MDUsMTE4Nj
 gyMTYwNSwtMTcyNDY4MTA0NywxOTI0MTc0NTI2LC0xNTI4MTE4
 MzE4LDE4Mzc4MDcwNjEsLTIwMzcwMTc4MjEsMTM4NDc4MjUyMy
 wtMTg2NDU1MDg4MSw5OTg0OTY1MzEsOTk4NDk2NTMxLC0xNTM0
